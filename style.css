@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(74, 175, 118);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 175, 118, 1) 0%,
+    rgba(0, 246, 20, 1) 100%
+  );
+}
+#main {
+  background-color: #fff;
+  width: 400px;
+  margin: 100px auto;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+#main h1 {
+  text-align: center;
+  font-size: 40px;
+}
+#main .buttons {
+  display: flex;
+  border: 1px solid rgb(201, 200, 200);
+  margin: 20px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#main .buttons h2:nth-child(1):hover {
+  background: rgb(74, 175, 118);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 175, 118, 1) 0%,
+    rgba(0, 246, 20, 1) 100%
+  );
+  border-radius: 5px;
+  color: #fff;
+}
+#main .buttons h2:nth-child(2):hover {
+  background: rgb(74, 175, 118);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 175, 118, 1) 0%,
+    rgba(0, 246, 20, 1) 100%
+  );
+  color: #fff;
+  border-radius: 5px;
+}
+#main .buttons h2 {
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+}
+#main form input {
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 0 12px 10px;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px 0;
+  border: 1px solid rgb(201, 200, 200);
+}
+#main form input[type="submit"] {
+  margin-top: 20px;
+  background: rgb(74, 175, 118);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 175, 118, 1) 0%,
+    rgba(0, 246, 20, 1) 100%
+  );
+  color: #fff;
+  cursor: pointer;
+}
+#main form p {
+  font-size: 16px;
+  color: rgb(16, 194, 54);
+}
+#main form + p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+}
+#main form + p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+}
+#main .signup {
+  color: rgb(16, 194, 54);
+  cursor: pointer;
+}
