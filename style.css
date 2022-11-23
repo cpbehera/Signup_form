@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   background: rgb(74, 175, 118);
@@ -25,11 +27,11 @@ body {
 #main .buttons {
   display: flex;
   border: 1px solid rgb(201, 200, 200);
-  margin: 20px 0;
+  margin: 30px 0;
   border-radius: 5px;
   cursor: pointer;
 }
-#main .buttons h2:nth-child(1):hover {
+#main .buttons h2:nth-child(1) {
   background: rgb(74, 175, 118);
   background: linear-gradient(
     90deg,
@@ -60,7 +62,7 @@ body {
   padding: 12px 0 12px 10px;
   border-radius: 5px;
   outline: none;
-  margin: 10px 0;
+  margin: 15px 0;
   border: 1px solid rgb(201, 200, 200);
 }
 #main form input[type="submit"] {
